@@ -1,0 +1,49 @@
+What does a code comment look like in JavaScript? What character/s do you have to put before a comment?
+
+We can categorize the  code comment into single-line comment and mulitple-line comment. 
+Single-line comments begin with //, and multiple-line comments start with /* and end with */.
+
+Explain what needs to happen to get a JavaScript program to "run", given the JavaScript you've seen in this assignment.
+
+We have to create a html file, and put all the JavaScript codes inside script block, and specify what kind of file, and the programing languageu you use in type. After done with writing the codes, click the html file, and it will show the html on the browser you currently use.
+
+What functions in JavaScript seem to be similar in function to the print function in Python? (There are two.) Why might you use one and not the other? Explain briefly.
+
+innerHTML and document.write() are the ones that are similar in function to print function in Python. If you want to delete all existing HTML after an HTML document is loaded, then use document.write().
+
+What code would have to comment out to get rid of the pop-up box when you load the page? (Related to the last question.) Do that in the code file, and then, add code so that a text box will appear that contains the current date and time! HINT: Look through the rest of the code first...
+
+The alert function on line 12 should be commented out! 
+
+How can you put your own name at the top where it currently says "A name"? Explain very briefly how to do so, and replace A name in the web page with your own name.
+
+Change 'A name' on line 16 to 'Nai Shih'.
+
+What does the word document represent in this code? Explain briefly.
+
+The word document is an object that represents the HTML document displayed inside the broswer.
+
+What is happening in line 12 ( document.querySelector('#items').innerHTML = document.getElementsByTagName('li').length )? Explain, briefly (<= 2 sentences).
+
+Return the length of  a list of all <li> elements with, and then store into id = items.
+
+
+What color would the background of this page be if there were no JavaScript in this page?
+
+The background will be white.
+
+Why are there a couple of gray boxes on the screen with a different colored border? How could you edit this code to make them a different color? Explain briefly. Then edit the code to make those boxes some shade of blue, of your choosing.
+
+Since in paragraph(p), the background color is #b3b3b3 which is gray, and its border is #FFFFFF which is white. To change the boxes color to different color, just simply change the letters after #. 
+
+Edit the code so that, if you highlight McGill University and copy it, you see the text O Canada near the bottom of the page. Briefly explain why you made the edits that you did -- how did you know/figure out what to do?
+
+In the original code, when you click the button that says Wow, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:
+
+function handleClick(){
+	alert("hello");
+}
+and
+
+<button onclick=handleClick() id="wow-button">Wow</button>
+Knowing what you learned from the previous question, add code/markup to the jsPracticeLab.html file so that there is a button with the text Spring Equinox 2019 on it somewhere on the page, and when that button is clicked, a text box containing the text March 20, 2019 appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)
